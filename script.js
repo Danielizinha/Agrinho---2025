@@ -1,4 +1,4 @@
-let money = 0;
+let money = 50;
 let crops = [];
 let plantPrice = 5;  // Preço para plantar alface
 

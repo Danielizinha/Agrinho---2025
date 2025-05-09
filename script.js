@@ -1,5 +1,7 @@
-let money = 50;
-let crops = [];
+// Valor inicial do dinheiro
+let money = 50; // Começa com R$50
+
+// Preço para plantar alface
 let plantPrice = 5;  // Preço para plantar alface
 
 // Elementos da interface
@@ -58,4 +60,3 @@ function sellCrop(crop) {
 function updateMoney() {
     moneyValue.innerText = money;
 }
-

@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+#game-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+#farm, #market {
+    width: 40%;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#crops {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.crop {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    background-color: #76c7c0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#inventory {
+    margin-top: 20px;
+}
+
+#money {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
